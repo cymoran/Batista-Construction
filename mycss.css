@@ -1,0 +1,276 @@
+
+@media only screen and (max-width: 800px){
+.services{
+flex-direction: column;
+
+
+}
+.services img{
+    width: 100%;
+    height: 400px;
+}
+.services div{
+    padding: 0px;
+    border: 0px;
+    -webkit-box-shadow: 0 0 10px rgb(0,0,0);
+-moz-box-shadow: 0 0 10px rgb(0,0,0);
+margin-bottom: 50px;
+border-radius: 10px;
+    
+}
+
+}
+
+body{
+min-width: 500px;
+width: 100%;
+}
+
+.outer{
+    padding-top: 46.4px;;
+}
+
+.flex-nav-container{
+display:flex;
+width: 100%;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+top: 0px;
+padding-top: 0px;
+margin: 0px;
+position: fixed;
+background: #1a1a1a;
+z-index: 1;
+transition: all 0.5s;
+backface-visibility: hidden;
+transform-style: preserve-3d;
+}
+.flex-wrap {
+display: flex;
+align-content: center;
+justify-content: center;
+margin-bottom: 0px;
+padding-left: 5px;
+}
+
+.flex-nav-container img{
+width: 50px;
+max-height: auto;
+transition: all 0.5s;
+backface-visibility: hidden;
+transform-style: preserve-3d;
+}
+
+.flex-nav-container h2{
+    padding-left: 15px;
+    color: white;
+    transition: all 0.5s;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+
+
+.flex-nav ul{
+    display: flex;
+    margin: 0px;
+    list-style-type: none;
+}
+
+#navmenu a{
+color:white;
+display:inline-block;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+
+}
+
+#navmenu a:hover{
+    background-color: black;
+}
+
+.flex-container-title{
+display: flex;
+justify-content: space-around;
+align-items: center;
+background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("Imgs/house.jpg") no-repeat center;
+background-size: 100% 100%;
+margin:auto;
+width: 100%;
+height: 320px;
+background-blend-mode: darken;
+
+
+}
+
+.flex-container-title h1{
+    text-align: center;
+    font-size: 36px;
+    padding-left:20px ;
+    color: white;
+}
+
+
+.about-us{
+    /* background-color: #4E586E; */
+
+    max-width: 1080px;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 20px;
+
+}
+
+.about-us-header{
+    display:flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+font-family:'Inter';
+color: #004BA8;
+font-weight: bolder;
+}
+.about-us-para{
+    display:flex;
+    width: 100%;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Inter';
+}
+
+.serv-wrap{
+    background-color: #f4f4f4;
+    padding-top: 10px;
+}
+.h2-serv{
+text-align: center;
+font-size: 24px;
+
+}
+
+.services{
+    display:flex;
+    justify-content: space-around;
+
+
+    padding-bottom: 30px;
+
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+
+    background-color: #f4f4f4;
+    max-width: 1080px;
+    margin: auto;
+    font-family: 'Inter';
+}
+
+.services div{
+
+
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 0px;
+    font-size: 16px;
+    flex: 1;
+    overflow: hidden;
+
+
+}
+
+.services div h2{
+    color: #ff8a00;
+    /* text-decoration-line: underline; */
+
+}
+
+.services .serv-list{
+    text-align: left;
+    row-gap: 20px;
+    list-style-type: none;
+
+    padding-left: 0px;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    font-size: 2.1vmin;
+
+}
+
+.services .serv-list li{
+    margin-bottom: 10px;
+    text-align: center;
+
+
+}
+
+.services img{
+    max-height: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.our-work{
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 30px;
+    max-width: 600px;
+}
+
+.our-work label{
+    font-weight: bold;
+}
+
+.our-work img{
+    justify-content: center;
+}
+
+.form-group{
+    padding-bottom: 15px;;
+    text-align: left;
+    
+}
+
+.form-wrap{
+    display: flex;
+    gap: 20px;
+
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+.form-wrap div{
+width: 50%;
+}
+
+input[type = "text"], textarea, input[type = "email"]{
+    background-color: #f4f4f4;
+    height: 30px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+}
+
+textarea{
+    width: 100%;
+    height: 100px;
+    resize: none;
+}
+
+button[type = "submit"]{
+
+    background-color: #ff8a00;
+    cursor: pointer;
+    height: 30px;
+    width: 100px;
+    font-weight: bold;
+    border: 0px;
+    width:50%;
+    color:#f4f4f4
+}
