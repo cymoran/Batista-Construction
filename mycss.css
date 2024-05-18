@@ -1,29 +1,46 @@
 
 @media only screen and (max-width: 800px){
+    ::-webkit-scrollbar {
+        -webkit-appearance: none;
+    }
 .services{
 flex-direction: column;
-
-
 }
 .services img{
     width: 100%;
-    height: 400px;
+    height: 300px;
 }
 .services div{
     padding: 0px;
     border: 0px;
     -webkit-box-shadow: 0 0 10px rgb(0,0,0);
--moz-box-shadow: 0 0 10px rgb(0,0,0);
-margin-bottom: 50px;
-border-radius: 10px;
-    
+    -moz-box-shadow: 0 0 10px rgb(0,0,0);
+    margin-bottom: 50px;
+    border-radius: 10px;
+    width: 100%;
 }
+
+.serv-list li{
+    font-size: 20px;
+}
+.about-us{
+    background-color: white;
+
+}
+.our-work{
+    background-color: white;
 
 }
 
+.contact p1{
+    display:none;
+}
+}
 body{
-min-width: 500px;
+min-width: 300px;
 width: 100%;
+overflow-x: hidden;
+background-color: white;
 }
 
 .outer{
@@ -215,19 +232,29 @@ font-size: 24px;
     overflow: hidden;
     border-radius: 10px;
 }
-.our-work{
+
+
+.slideshow_container{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+
+}
+.contact{
     align-items: center;
     text-align: center;
     margin: auto;
     padding-bottom: 30px;
-    max-width: 600px;
+
+    justify-content: center;
+    display: flex;
 }
 
-.our-work label{
+.contact label{
     font-weight: bold;
 }
 
-.our-work img{
+.contact img{
     justify-content: center;
 }
 
