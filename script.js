@@ -14,37 +14,17 @@
     }
 }
 
-let slideIndex = 1;
-let timer = null;
+const images = ["Imgs/stair_serv.JPG","Imgs/tg_entry.JPG","Imgs/tg_inside_brown.JPG","Imgs/tg_outside.JPG"];
 
-showSlides(slideIndex);
+const carousel = document.querySelector(".carousel")
+const interval = setInterval(function(){
+    startCarousel();
+},3000)
 
-function plusSlides(n){
-    clearTimeout(timer);
-    showSlides(slideIndex += n);
+var index = 1;
+
+startCarousel = () =>{
+    carousel.style.backgroundImage = `url(${images[index++]})`;
+
+    if(index>images.length-1) index = 0;
 }
-
-function currentSlide(n){
-clearTimeout(timer);
-showSlides(slideIndex = n)
-}
-
-function showSlides(n) {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
-    if (n==undefined){n = ++slideIndex}
-    if (n > slides.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = slides.length}
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    }
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
-    timer = setTimeout(showSlides, 5000);
-  } 
-
-
