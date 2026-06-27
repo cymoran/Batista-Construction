@@ -1,178 +1,212 @@
 <!DOCTYPE html>
-
 <html lang="en">
-    <head>
-        <meta charset="utf-8"/>
-        <meta name ="author" content ="Cy Moran" />
-    
-    <link rel="stylesheet" type="text/css" href="mycss.css"/>
-    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
-    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'>
-    <title>Batista Construction</title>
-    </head>
-    <body style="margin:0">
-        
-<!-- Analoagous: #519CAE, #516DAE, #51AE92-->
-<!-- Mono:#408EBF, #66A5CC-->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Cy Moran" />
+  <meta name="description" content="Batista Construction provides trim, ceiling, stairway, custom carpentry, and interior finish work for Southwest Florida homes." />
+  <title>Batista Construction | Finish Carpentry in Southwest Florida</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="mycss.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="Batista Construction home">
+        <img src="Imgs/real_logo.svg" alt="Batista Construction logo" class="brand-logo" />
+        <span>Batista Construction</span>
+      </a>
 
-    <!-- Navbar Section of Website-->    
-    <div class = "wrapper">
-    <div class = "outer">
-            <div class = "flex-nav-container" id = "navbar">
-                <div class = "flex-wrap">         
-                    <img src = "Imgs/real_logo.svg" id = "logo_img">
-                    <h2 id = "head_nav" style = "padding-left: 15px; color: white;"> Batista Construction</h2>
-                </div>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
 
-                <div class = "flex-nav"> 
-                    <!-- Navbar List--> 
-                    <div class = "hamb">
-                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                            &#9776;
-                        </a>
-                    </div>
-                    <ul>
-                        <li id="navmenu"><a id = "navmenu_a" href = '#Contact Us'>About Us</a></li>
-                        <li id="navmenu"><a id = "navmenu_a" href = '#Gallery'>Gallery</a></li>
-                        <li id="navmenu"><a id = "navmenu_a" href = '##About Us'>Contact Us</a></li>
-                    </ul>  
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#work">Our Work</a></li>
+        <li><a href="#why-us">Why Us</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact" class="nav-cta">Free Estimate</a></li>
+      </ul>
+    </nav>
+  </header>
 
-                </div>
-            </div>
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Finish Carpentry • Trim • Ceilings • Stairways</p>
+        <h1>Custom interior woodwork for Southwest Florida homes.</h1>
+        <p class="hero-text">Batista Construction helps homeowners upgrade their space with clean trim work, custom ceilings, stair details, cabinetry, and dependable finish carpentry.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Get a Free Estimate</a>
+          <a href="#work" class="btn btn-secondary">See Project Photos</a>
         </div>
-        <!-- Homepage-->
+      </div>
 
+      <aside class="hero-card" aria-label="Company highlights">
+        <strong>30+ Years</strong>
+        <span>Local experience helping homeowners with detailed interior construction and finish work.</span>
+        <ul>
+          <li>Clear communication</li>
+          <li>Clean job sites</li>
+          <li>Custom project solutions</li>
+        </ul>
+      </aside>
+    </section>
 
-            <!-- Title-->
-            <!-- change this to side by side layout, with solid background and picture to right or left-->
-            <div class = "flex-container-title"> 
-                 <h1>Batista Construction</h1>
-       
-            </div>
-            
+    <section class="trust-strip" aria-label="Company strengths">
+      <div><strong>30+ Years</strong><span>Hands-on experience</span></div>
+      <div><strong>Local</strong><span>Southwest Florida based</span></div>
+      <div><strong>Custom</strong><span>Built around your home</span></div>
+      <div><strong>Reliable</strong><span>Simple, honest communication</span></div>
+    </section>
 
-            <!-- About Us-->
-            <div class = "about-us">
-            <div class = "about-us-header"> 
-                <h2 style = "text-align: left;"> Southwest Floridas Most Reliable Contractor</h2>
-            </div>
-            <div class = "about-us-para">
-                <p2> For over 30 years Batista Construction has been providing quality work for Soutwest Florida Homes. 
-                    With the increasing demand for home construciton in the past years, invaluable experience and skills have been developed in carpentry, ceiling work, cabnitery and many other interior design work. 
-                    Lervaerging these skills, Batista Construction can provide custom and elegant solutions for any home construction project. 
-                    <br />
-                    <br />
-                    We pride ourselves on approaching every single project with an open mind. 
-                    As a local business, we are able to communicate with our customers more efficiently and quickly. 
-                    
-                    
-                </p2>
-            </div>
+    <section class="section services-section" id="services">
+      <div class="section-heading centered">
+        <p class="eyebrow">Services</p>
+        <h2>High-quality finish work without making the project complicated.</h2>
+        <p>These are the services homeowners usually need when they want their home to feel more finished, detailed, and custom.</p>
+      </div>
+
+      <div class="service-grid six-cards">
+        <article class="service-card feature-card">
+          <img src="Imgs/trim_serv.jpg" alt="Interior trim work by Batista Construction" />
+          <div class="service-body">
+            <h3>Trim & Finish Carpentry</h3>
+            <p>Baseboards, casing, crown, exterior trim, and detail work that makes rooms feel complete.</p>
+          </div>
+        </article>
+
+        <article class="service-card feature-card">
+          <img src="Imgs/ceiling_serv.jpg" alt="Custom ceiling work by Batista Construction" />
+          <div class="service-body">
+            <h3>Custom Ceilings</h3>
+            <p>Tongue and groove ceilings, coffered ceilings, wood accents, and ceiling repairs.</p>
+          </div>
+        </article>
+
+        <article class="service-card feature-card">
+          <img src="Imgs/stair_serv.jpg" alt="Custom stairway work by Batista Construction" />
+          <div class="service-body">
+            <h3>Stairways</h3>
+            <p>Railings, banisters, custom steps, trim details, and clean staircase upgrades.</p>
+          </div>
+        </article>
+
+        <article class="mini-service"><h3>Cabinetry & Built-ins</h3><p>Cabinet trim, shelving, storage features, and custom interior details.</p></article>
+        <article class="mini-service"><h3>Doors & Windows</h3><p>Interior doors, window casing, door trim, and finishing details.</p></article>
+        <article class="mini-service"><h3>Interior Upgrades</h3><p>Small remodel details, repair work, and project-specific carpentry solutions.</p></article>
+      </div>
+    </section>
+
+    <section class="section work-section" id="work">
+      <div class="section-heading centered">
+        <p class="eyebrow">Project Gallery</p>
+        <h2>Show the work. Build the trust.</h2>
+        <p>Replace or add to these images with your best real project photos. More good photos usually means more confidence from homeowners.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <figure><img src="Imgs/stair_serv.JPG" alt="Custom stairway project in Southwest Florida" /><figcaption>Custom Stairway</figcaption></figure>
+        <figure><img src="Imgs/tg_entry.JPG" alt="Tongue and groove entry ceiling in Southwest Florida" /><figcaption>Tongue & Groove Entry</figcaption></figure>
+        <figure><img src="Imgs/tg_inside_brown.JPG" alt="Interior tongue and groove ceiling project" /><figcaption>Interior Wood Ceiling</figcaption></figure>
+        <figure><img src="Imgs/tg_outside.JPG" alt="Outdoor tongue and groove ceiling project" /><figcaption>Outdoor Ceiling Detail</figcaption></figure>
+        <figure><img src="Imgs/trim_serv.jpg" alt="Trim and finish carpentry project" /><figcaption>Trim Work</figcaption></figure>
+        <figure><img src="Imgs/ceiling_serv.jpg" alt="Ceiling construction and finish carpentry project" /><figcaption>Custom Ceiling</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="section why-section" id="why-us">
+      <div class="section-heading centered">
+        <p class="eyebrow">Why Homeowners Choose Us</p>
+        <h2>A better experience from the first call to the final cleanup.</h2>
+      </div>
+      <div class="why-grid">
+        <div><span>✓</span><h3>Local & Experienced</h3><p>Over 30 years of practical construction and finish carpentry experience.</p></div>
+        <div><span>✓</span><h3>Detail Focused</h3><p>Small details matter in trim, ceilings, stairways, and finish work.</p></div>
+        <div><span>✓</span><h3>Honest Communication</h3><p>You get a simple explanation of the work, options, and next steps.</p></div>
+        <div><span>✓</span><h3>Custom Solutions</h3><p>Every home is different, so the work is planned around your space.</p></div>
+      </div>
+    </section>
+
+    <section class="section testimonials-section">
+      <div class="section-heading centered">
+        <p class="eyebrow">Testimonials</p>
+        <h2>What customers should see here.</h2>
+        <p>Use real reviews when you have them. These placeholders show the format.</p>
+      </div>
+      <div class="testimonial-grid">
+        <blockquote><div>★★★★★</div><p>“The trim work made the entire room feel finished. Great communication and clean work.”</p><cite>— Homeowner, Southwest Florida</cite></blockquote>
+        <blockquote><div>★★★★★</div><p>“The ceiling detail turned out better than we imagined. Very professional from start to finish.”</p><cite>— Local Customer</cite></blockquote>
+        <blockquote><div>★★★★★</div><p>“Reliable, honest, and the craftsmanship shows. We would hire again.”</p><cite>— Batista Construction Customer</cite></blockquote>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="about-owner">
+        <div class="owner-photo">
+          <img src="Imgs/house.jpg" alt="Batista Construction project home" />
         </div>
-        <div class = "serv-wrap"> 
-        <h2 style = "text-align: center; color:#3E78B2; font-size: 28px; font-family: 'Inter';">Services</h2>
-        <div class = "services">   
-            <div style=" border-right-style: groove; border-left-style: groove;">
-                <img src = "Imgs/trim_serv.jpg" id = "serv-img"> 
-                <h2>
-                    Trim
-                </h2>
-                <ul class = "serv-list"> 
-                    <li> Outdoor </li>
-                    <li> Indoor </li>
-                    <li> Casing </li>
-                    <li> Baseboard </li>
-                    <li> Crown </li>
-                    <li> Cove </li>
-                </ul>
-            </div>
-            <div style=" border-right-style: groove;"> 
-                <img src = "Imgs/ceiling_serv.jpg" id = "serv-img"> 
-                    <h2>
-                        Ceilings
-                    </h2>
-                    <ul class = "serv-list"> 
-                        <li> Tung & Groove </li>
-                        <li> Casing </li>
-                        <li> Coffre </li>
-                        <li> Tung & Groove </li>
-                        <li> Casing </li>
-                        <li> Coffre </li>
-                    </ul>
-                </div>
-                    <div style ="border-right-style: groove;">
-                        <img src = "Imgs/stair_serv.jpg" id = "serv-img"> 
-                        <h2>
-                            Stairways
-                        </h2>
-                        <ul class = "serv-list"> 
-                            <li> Railings </li>
-                            <li> Custom Steps </li>
-                            <li> Railings </li>
-                            <li> Banisters </li>
-                        </ul>
-            </div>
+        <div>
+          <p class="eyebrow">About Batista Construction</p>
+          <h2>Local craftsmanship with a simple, honest approach.</h2>
+          <p>For over 30 years, Batista Construction has provided quality work for Southwest Florida homes. We bring hands-on experience in carpentry, ceiling work, cabinetry, trim, stairways, and custom interior projects.</p>
+          <p>As a local business, we keep the process straightforward: listen to what you need, explain the work clearly, and deliver a finished result that looks good and lasts.</p>
         </div>
-        </div>
-        <h2 style = "text-align: center; color:#3E78B2; background-color: white;">Our Work</h2>
+      </div>
+    </section>
 
-        <div class = "our-work"> 
-            <div class="carousel fade">
-
-                <a class = "prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class = "next" onclick="plusSlides(1)">&#10095;</a>
-              
-
-
-        </div>
-</div>
-
-        <h2 style = "text-align: center; color:#3E78B2; ">Contact Usd</h2>
-        <div class = "contact"> 
-            <p1> Looking for quality work?
-                <br> 
-                Please contact us explaining
-                the type of work and we will respond as soon as possible
-                to help you with your project
-
-            </p1>
-            <div>
-            <form>
-                <div class = "form-wrap"> 
-                <div>
-                <label for="fname">First Name:</label><br>
-                <input type = "text" id = "fname" name = "fname">
-            </div>
-
-                <div> 
-                <label for="lname">Last Name:</label><br>
-                <input type = "text" id = "lname" name = "lname">
-            </div>
+    <section class="section contact-section" id="contact">
+      <div class="contact-card">
+        <div class="contact-copy">
+          <p class="eyebrow">Get a Free Estimate</p>
+          <h2>Tell us about your project.</h2>
+          <p>Send your name, phone number, project type, and a short description. Photos are helpful too if you email them after submitting.</p>
+          <div class="contact-details">
+            <p><strong>Service Area:</strong> Southwest Florida</p>
+            <p><strong>Project Types:</strong> Trim, ceilings, stairways, cabinetry, finish carpentry</p>
+            <p><strong>Tip:</strong> Add your real phone number and email here before launching.</p>
+          </div>
         </div>
 
-            <div class = "form-group"> 
-                <label for="bemail">Business Email:</label><br>
-                <input type = "email" id = "email" name = "email">
+        <form class="contact-form" id="contact-form">
+
+            <label>Business/Name<input type="text" id="first-name" name="firstName" required /></label>
+
+          <label>Email<input type="email" id="email" name="email" required /></label>
+          <label>Phone<input type="tel" id="phone" name="phone" /></label>
+          <fieldset class="project-type-group">
+            <legend>Project Type <span>Select all that apply</span></legend>
+            <div class="project-options">
+              <label><input type="checkbox" name="projectType" value="Trim / Finish Work" /> <span>Trim / Finish Work</span></label>
+              <label><input type="checkbox" name="projectType" value="Ceilings" /> <span>Ceilings</span></label>
+              <label><input type="checkbox" name="projectType" value="Stairways" /> <span>Stairways</span></label>
+              <label><input type="checkbox" name="projectType" value="Cabinetry / Built-ins" /> <span>Cabinetry / Built-ins</span></label>
+              <label><input type="checkbox" name="projectType" value="Doors / Windows" /> <span>Doors / Windows</span></label>
+              <label><input type="checkbox" name="projectType" value="Other" /> <span>Other</span></label>
             </div>
-
-                <div class = "form-group"> 
-                <label for="comp" style="font-weight: bold;">Company:</label><br>
-                <input type = "text" id = "company" name = "compnay">
-                </div>
-
-                <div class = "form-group">
-                <label for="message">Message</label><br>
-                <textarea name = "message" rows = "5" cols = "30" placeholder="Write here..."></textarea>
+            <div class="selected-projects" id="selected-projects" aria-live="polite">
+              <strong>Selected:</strong> <span>No project types selected yet.</span>
             </div>
-            </form>
-            <button type = "submit"> <img src = "/Batista_Construction/Imgs/send.svg" alt = "submit"> Send Message</button>
-        </div>
-            
-        </div>
-    </div>
-        
-        
+          </fieldset>
+          <label>Project Details<textarea id="message" name="message" rows="5" placeholder="Tell us what you need help with..."></textarea></label>
+          <button type="submit" class="btn btn-primary full-width">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
 
-        <script type="text/javascript" src="script.js"></script>
-    </body>
-</html>                  
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Batista Construction. All rights reserved.</p>
+  </footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" type="button" aria-label="Close image">×</button>
+    <img src="" alt="Expanded project photo" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
